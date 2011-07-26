@@ -1,0 +1,17 @@
+TARGETNAME = hades
+TARGETPATH = obj
+TARGETTYPE = DRIVER
+
+MSC_WARNING_LEVEL=/W0
+
+INCLUDES   = %BUILD%\inc
+LIBS       = %BUILD%\lib
+
+ 
+
+SOURCES    = hades.c \
+			 support.c \
+             debugger.c \
+             data_miner.c \
+             data_miner_hooks.c 
+           
